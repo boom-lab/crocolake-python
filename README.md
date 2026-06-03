@@ -10,6 +10,8 @@ CrocoLake-Python is a collection of Jupyter notebooks that shows how to interfac
 
 ### Usage
 
+CrocoLake itself is a dataset made of a collection of parquet files and as such is language-agnostic. The following instructions are to install the python packages recommended to run the notebook examples (e.g. pandas to read the data, matplotlib to visualize plots, etc.).
+
 #### python
 
 Create your local environment (creates a folder in your current directory)
