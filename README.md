@@ -10,9 +10,13 @@ CrocoLake-Python is a collection of Jupyter notebooks that shows how to interfac
 
 ### Usage
 
-CrocoLake itself is a dataset made of a collection of parquet files and as such is language-agnostic. The following instructions are to install the python packages recommended to run the notebook examples (e.g. pandas to read the data, matplotlib to visualize plots, etc.).
+CrocoLake itself is a dataset made of a collection of parquet files and as such is language-agnostic (think of it as a set of csv or netCDF files). The following instructions are to install a local environment that contains the Python packages recommended to run the notebook examples (e.g. pandas to read the data, matplotlib to visualize plots, etc.), but no CrocoLake-specific package is needed.
 
-#### python
+You can download CrocoLake from CrocoLake's documentation page ([here!](https://crocolakedocs.readthedocs.io/en/latest/crocolake.html#download-links)), where you will also find more details about how CrocoLake is assembled from its sources.
+
+This repository also comes with a helper tool to download CrocoLake from the command line (instead of opening the link above, clicking, save to... etc.): you can run it from the environment (e.g. `download_db -d CrocoLake PHY`) or as a standalone Python script (e.g. `python download_db -d CrocoLake PHY`).
+
+#### Python
 
 Create your local environment (creates a folder in your current directory)
 `virtualenv crocolake`
